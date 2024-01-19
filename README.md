@@ -12,7 +12,7 @@ Podés encontrar el [diseño](https://www.figma.com/file/YLDHikbDgfsZbVdEbO0H6U/
 
 - El usuario debe poder utilizar el gestor en Desktop y Mobile.
 
-### Definición extras que no están en el diseño
+## Definición extras que no están en el diseño
 
 - El listado de proyectos puede tener un paginado.
 
@@ -21,6 +21,7 @@ Podés encontrar el [diseño](https://www.figma.com/file/YLDHikbDgfsZbVdEbO0H6U/
 - El listado de proyectos puede tener un buscador de la lista por nombre de proyecto.
 
 ## Definiciones técnicas
+
 - Debe estar realizado en un framework de JS, Angular o React.
 
 - La aplicación debe estar publicada y debe ser accesible mediante un link(Ver Netlify, Heroku) o cualquier webserver.
