@@ -1,6 +1,7 @@
 {
   "name": "frontend-challenge",
   "version": "0.1.0",
+  "homepage": "https://macarenabarrios.github.io/frontend-challenge/build",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
