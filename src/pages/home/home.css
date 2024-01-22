@@ -9,7 +9,7 @@ hr {
   border-top: 1.5px solid #D9D9D9;
 }
 
-/* Parte de abajo del navbar */
+/* 2nd navbar */
 .navbar-bottom {
   background-color: white;
   display: flex;
@@ -31,6 +31,7 @@ hr {
   align-items: center;
 }
 
+/* Search input */
 .search-input {
   width: 150px;
   height: 31px;
@@ -40,7 +41,7 @@ hr {
   border-radius: 4px;
 }
 
-/* Título */
+/* Title */
 .projects-title {
   margin-left: 40px;
   font-size: 24px;
@@ -58,7 +59,7 @@ hr {
   color: black;
 }
 
-/* Estilos para la tabla */
+/* Table */
 .centered-table {
   border: 1px solid #ddd;
   border-collapse: collapse;
@@ -96,7 +97,6 @@ td {
 
 .date {
   color: #888;
-  /* Color por defecto */
 }
 
 .project-info {
@@ -110,8 +110,27 @@ td {
   margin-right: 10px;
 }
 
-/* Ajustes para hacerlo responsive */
+/* Pagination */
+.custom-pagination .page-link {
+  color: black;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #DD3546;
+  color: white;
+  border-color: #DD3546;
+}
+
+/* Responsive */
 @media (max-width: 767px) {
+
+  .container {
+    padding: 0;
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+
+  /* 2nd navbar */
   .navbar-bottom {
     height: 45px;
     padding-right: 20px;
@@ -134,22 +153,18 @@ td {
     align-items: center;
   }
 
+  /* Input */
   .search-input {
     width: 100px;
-    height: 20px;
+    height: 25px;
     padding: 8px;
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
 
-  .container {
-    padding: 0;
-    margin-left: 0;
-    overflow-x: hidden;
-  }
-
+  /* List */
   .project-list {
     list-style-type: none;
     padding: 0;
@@ -199,27 +214,36 @@ td {
   }
 
   .project-list-item h3 {
-    font-size: 18px;
+    font-size: 15px;
     color: #595959;
   }
 
   .project-list-item div p.date {
-    font-size: 12px;
+    font-size: 10px;
     color: #8C8C8C;
   }
 
   .project-list-item p.assigned-to {
-    font-size: 16px;
+    font-size: 13px;
     color: #595959;
     margin-bottom: 0;
-    margin-left: 10px;
   }
 
+  /* Button */
   .btn-sm-responsive {
     white-space: nowrap;
-    font-size: 9px;
+    font-size: 12px;
     height: 25px;
+    display: flex;
+    align-items: center;
   }
 
+  /* Pagination */
+  .custom-pagination {
+    margin-top: 20px;
+  }
 
+  .custom-pagination .page-link {
+    font-size: 12px;
+  }
 }
