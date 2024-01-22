@@ -1,0 +1,40 @@
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 65px;
+  padding-left: 20px;
+}
+
+.logo {
+  margin-left: 60px;
+  height: 35px;
+  margin-top: auto;
+  background-color: white;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-toggler-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .logo {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-left: 25px;
+    height: 25px;
+  }
+}

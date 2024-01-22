@@ -1,0 +1,225 @@
+.home-container {
+  margin: 0 auto;
+  background-color: #F0F2F5;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+  border-top: 1.5px solid #D9D9D9;
+}
+
+/* Parte de abajo del navbar */
+.navbar-bottom {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding-left: 20px;
+  padding-right: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 150px;
+  height: 31px;
+  padding: 8px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Título */
+.projects-title {
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.option-btn {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.option-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos para la tabla */
+.centered-table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.centered-table th {
+  padding: 15px;
+  padding-left: 20px;
+  background-color: #FAFAFA !important;
+  font-size: 13px;
+}
+
+.centered-table tbody {
+  background-color: #FFFFFF !important;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.info-container {
+  padding-top: 3px;
+}
+
+.centered-table tbody td {
+  padding-left: 20px;
+}
+
+.centered-table th,
+td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.date {
+  color: #888;
+  /* Color por defecto */
+}
+
+.project-info {
+  padding-top: 10px;
+}
+
+.thumbnail {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+/* Ajustes para hacerlo responsive */
+@media (max-width: 767px) {
+  .navbar-bottom {
+    height: 45px;
+    padding-right: 20px;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .projects-title {
+    margin-left: 0px;
+    white-space: nowrap;
+  }
+
+  .navbar-right {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    width: 100px;
+    height: 20px;
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .container {
+    padding: 0;
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .project-list-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .project-list-item div {
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .project-list-item-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -10px;
+  }
+
+  .project-list-item .info-container {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-list-item .thumbnail {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .option-btn {
+    margin-bottom: 62px;
+  }
+
+  .project-list-item:hover .project-list-item-options {
+    display: flex;
+  }
+
+  .project-list-item h3 {
+    font-size: 18px;
+    color: #595959;
+  }
+
+  .project-list-item div p.date {
+    font-size: 12px;
+    color: #8C8C8C;
+  }
+
+  .project-list-item p.assigned-to {
+    font-size: 16px;
+    color: #595959;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .btn-sm-responsive {
+    white-space: nowrap;
+    font-size: 9px;
+    height: 25px;
+  }
+
+
+}
