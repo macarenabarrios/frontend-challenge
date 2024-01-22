@@ -8,7 +8,7 @@ import logo from '../assets/images/logo1.png'
 const CustomNavbar = () => {
   return (
     <Navbar className="custom-navbar" expand="lg">
-      <Navbar.Brand href="#">
+      <Navbar.Brand href="/">
         <img src={logo} alt="Logo" className="logo" />
       </Navbar.Brand>
       <Container>
